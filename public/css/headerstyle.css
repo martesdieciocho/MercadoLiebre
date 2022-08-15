@@ -1,0 +1,236 @@
+header{
+    font-family: 'Roboto';
+    background-color: #EAC926;
+}
+
+.burger-menu{
+    width:40px;
+    height:40px;
+    background-color:#1259c3;
+    margin:auto;
+    font-size:25px;
+    text-align:center;
+    color:white;
+    border-radius:5px;
+}
+
+body{
+    font-size: 12px;
+    background-color: #ebebeb;;
+}
+
+.titles{
+    font-size: 24px;
+    color: #666;
+    
+}
+
+.prices{
+    font-size: 18px;
+    margin: 15px 15px 15px 15px;
+}
+
+.discounts{
+    font-size: 16px;
+    margin: 15px 15px 15px 15px;
+    color: #39b54a;
+}
+
+.descriptions{
+    font-size: 16px;
+    margin: 15px 15px 15px 15px;
+    color: #666;
+    display: none;
+}
+
+.photo-product{
+    width: 80%;
+    margin-left: 10%;
+    
+}
+
+footer{
+    text-align: center;
+    font-family: 'Roboto';
+    color: #666;
+    margin-top: 10px;
+}
+
+.fa-credit-card{
+    color: #1259c3;
+    font-size: 2em;
+}
+
+.fa-gift{
+    color: #1259c3;
+    font-size: 2em;
+}
+
+.fa-user-shield{
+    color: #1259c3;
+    font-size: 2em;
+}
+
+.product-container{
+    margin-top: 10px;
+    background-color: white;
+    width: 100%;
+    margin: 5px;
+    
+    
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    font-family: 'Roboto';
+}
+
+.info-product-container{
+    border-top: solid 1px #ebebeb;
+    
+
+}
+
+.prices{
+    font-size: 18px;
+    width: 30%;
+}
+.discounts{
+    text-align: right;
+    width: 70%;
+}
+.price-discount{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.fa-truck{
+    color: #39b54a;
+    margin: 15px 15px 15px 15px;
+    transition: 450ms;
+}
+
+.product-container:hover .fa-truck{
+    transform: rotate(-90deg);
+}
+
+.product-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.offer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top-header .photo-logo{
+    width: 50%;
+    
+}
+
+.search{
+    height: 20px;
+   
+}
+.top-header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navs{
+    display: flex;
+    
+}
+
+.banner{
+    width: 100%;
+    margin-top: 1px;
+    
+}
+/* Estilos formulario login*/
+.form-control {
+    margin-bottom: 15px;
+}
+
+.form-control label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-control-cat {
+    margin-bottom: 15px;
+}
+
+.control {
+    width: 100%;
+    padding: 5px;
+}
+
+.control-login {
+    padding: 20px 15px;
+    background-color: #ebebeb;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+
+.button-login {
+    text-align: center;
+}
+
+
+@media (max-width:360px) {
+    .product-container{
+        width: 100%;
+        
+    }
+    .descriptions{
+        display: none;
+    }
+    .site-navbar{
+        display: none;
+    }
+    .login-navbar{
+        display: none;
+    }
+}
+@media (min-width:361px) {
+    .product-container{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 48%;
+        
+    }
+    .burger-menu{
+        display: none;
+    }
+    .site-navbar{
+        display: flex;
+        
+    }
+    .login-navbar{
+        display: flex;
+        
+    }
+    .product-container:hover .descriptions{
+        display: block;
+    }
+}
+
+@media (min-width:769px) {
+    .burger-menu{
+        display: none;
+    }
+    .product-container{
+        width: 23%;
+    }
+    .site-navbar{
+        display: flex;
+        
+    }
+    .login-navbar{
+        display: flex;
+        
+    }
+}
